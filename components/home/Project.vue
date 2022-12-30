@@ -9,7 +9,7 @@
                     <div class="badge" v-for="badge in data.badges" :key="badge">{{ badge }}</div>
                 </div>
                 <div class="flex gap-4 bg-dark-100 p-2 rounded-full">
-                    <a :href="data.github"><img src="../../assets/img/github.png" class="w-8 h-8"></a>
+                    <a :href="data.source"><img src="../../assets/img/github.png" class="w-8 h-8"></a>
                     <a :href="data.preview"><img src="../../assets/img/preview.png" class="w-8 h-8"></a>
                 </div>
             </div>
