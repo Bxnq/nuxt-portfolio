@@ -4,13 +4,13 @@
 
     <div class="flex flex-col mt-5 mx-auto gap-2 w-4/5 sm:w-4/6 md:3/6 xl:w-5/12 text-light-100">
       <div
-        class="bg-error rounded-md border border-error border-opacity-20 bg-opacity-10 mt-5 text-xl text-center w-4/5 m-auto text-light-100 p-5"
+        class="bg-error rounded-md border border-error border-opacity-20 bg-opacity-10 mt-5 text-xl text-center w-full m-auto text-light-100 p-5"
         v-if="error">
         {{ error }}
       </div>
 
       <div
-        class="bg-success rounded-md border border-success border-opacity-20 bg-opacity-10 mt-5 text-xl text-center w-4/5 m-auto text-light-100 p-5"
+        class="bg-success rounded-md border border-success border-opacity-20 bg-opacity-10 mt-5 text-xl text-center w-full m-auto text-light-100 p-5"
         v-if="success">
         {{ success }}
       </div>
@@ -69,7 +69,7 @@ async function send() {
   }
 
   error = "";
-  success = "Success! You successfuly send a message to me.";
+  success = "Success! You successfully send a message to me.";
 
   const response = await useLazyFetch('/api/contact', {
     method: 'POST',
