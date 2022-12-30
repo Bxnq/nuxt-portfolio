@@ -17,21 +17,22 @@ const projects = [
   {
     name: 'Todo App',
     description: "A simple todo app where you can add tasks you want to do in the day and when you're done, mark them as done. If you don't want to do a task, you can simply delete it.",
-    preview: '',
-    source: '',
+    preview: 'https://todo.devbxnq.de',
+    source: 'https://github.com/Bxnq/todolist',
     badges: [
       'VueJS',
       'JavaScript'
     ],
   },
   {
-    name: 'This Site',
+    name: 'Portfolio',
     description: "A nice looking Portfolio Page where you can look at my work and see what i like to do.",
-    preview: '',
-    source: '',
+    preview: 'https://devbxnq.de',
+    source: 'https://github.com/Bxnq/nuxt-portfolio',
     badges: [
-      'VueJS',
-      'JavaScript'
+      'NuxtJS',
+      'JavaScript',
+      'TailwindCSS'
     ],
   }
 ]
