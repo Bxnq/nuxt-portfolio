@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-dark-400;
+}
+
+.button {
+    @apply text-light-100 px-5 py-2 rounded-lg font-bold text-lg hover:bg-opacity-90;
+}
+
+.badge {
+    @apply text-light-300 font-bold text-lg px-5 py-1 rounded-full w-auto bg-secondary;
+}

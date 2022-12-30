@@ -1,0 +1,8 @@
+{
+    "nuxt.isNuxtApp": false,
+    "files.exclude": {
+        ".nuxt": true,
+        ".vscode": true,
+        "node_modules": true
+    }
+}
