@@ -5,7 +5,7 @@
 
         <div class="mt-5">
             <div class="flex flex-col sm:flex-row gap-y-2 items-center justify-between">
-                <div class="flex gap-2 ">
+                <div class="flex gap-2 flex-wrap">
                     <div class="badge" v-for="badge in data.badges" :key="badge">{{ badge }}</div>
                 </div>
                 <div class="flex gap-4 bg-dark-100 p-2 rounded-full">
