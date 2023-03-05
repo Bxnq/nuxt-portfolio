@@ -15,6 +15,17 @@ import Project from './Project.vue';
 
 const projects = [
   {
+    name: 'Hangman',
+    description: "A simple Hangman that is fun to play.",
+    preview: 'https://hangman.devbxnq.de/',
+    source: 'https://github.com/Bxnq/hangman',
+    badges: [
+      'NuxtJS',
+      'JavaScript',
+      'TailwindCSS'
+    ],
+  },
+  {
     name: 'Todo App',
     description: "A simple todo app where you can add tasks you want to do in the day and when you're done, mark them as done. If you don't want to do a task, you can simply delete it.",
     preview: 'https://todo.devbxnq.de',
